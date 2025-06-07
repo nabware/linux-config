@@ -1,15 +1,16 @@
 {
     "modules-left": [
-        "clock"
+        "hyprland/workspaces"
     ],
     "modules-center": [
         "hyprland/window"
     ],
     "modules-right": [
+        "clock",
         "wireplumber"
     ],
     "clock": {
-        "format": "{:%I:%M | %a, %m/%d/%Y}"
+        "format": "{:%I:%M %a %m/%d/%Y}"
     },
     "wireplumber": {
         "format-muted": "MUTED"
