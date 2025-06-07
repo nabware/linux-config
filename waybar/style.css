@@ -1,0 +1,16 @@
+* {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.modules-left {
+    padding-left: 4px;
+}
+
+.modules-right {
+    padding-right: 4px;
+}
+
+.module {
+    padding: 4px;
+}
