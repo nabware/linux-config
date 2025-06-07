@@ -14,3 +14,11 @@
 .module {
     padding: 4px;
 }
+
+#workspaces button {
+	color: #888888;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+}
