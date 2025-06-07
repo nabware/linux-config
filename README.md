@@ -6,6 +6,7 @@
 
 ```
 sudo pacman -S hyprland uswm micro foot firefox git waybar hypridle \
+ttf-liberation ttf-dejavu noto-fonts noto-fonts-emoji ttf-roboto ttf-opensans \
 pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack wireplumber \
 bluez bluez-utils
 ```
