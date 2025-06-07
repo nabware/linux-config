@@ -9,7 +9,7 @@
         "wireplumber"
     ],
     "clock": {
-        "format": "{:%I:%M | %m/%d/%Y}"
+        "format": "{:%I:%M | %a, %m/%d/%Y}"
     },
     "wireplumber": {
         "format-muted": "MUTED"
