@@ -5,7 +5,8 @@
 ### Install packages
 
 ```
-sudo pacman -S hyprland uswm micro foot firefox git waybar hypridle
+sudo pacman -S hyprland uswm micro foot firefox git waybar hypridle \
+pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack wireplumber
 ```
 
 ### Nvidia
@@ -25,4 +26,11 @@ systemctl --user enable --now hypridle.service
 git config --global user.name "John Smith"
 git config --global user.email user@email.com
 git config --global init.defaultBranch main
+```
+
+### WirePlumber
+
+```
+wpctl status
+wpctl set-default 54
 ```
